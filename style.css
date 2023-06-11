@@ -1,0 +1,41 @@
+.contenedorCuadricula{
+    display: flex;
+    justify-content: center;
+}
+
+.cuadricula{
+    width: 25rem;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    padding: 2rem;
+    gap: .5rem;
+    background-color: #ffffff00;
+    z-index: 100;
+}
+.cuadriculaBackground{
+    width: 25rem;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    padding: 2rem;
+    gap: .5rem;
+    background-color: #bbada0;
+    position: absolute;
+    z-index: 10;
+}
+.valorCuadrado,.valorCuadrado2{
+     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgba(238,228,218,.35);
+    transition: .1s;
+    right: 0;
+}
